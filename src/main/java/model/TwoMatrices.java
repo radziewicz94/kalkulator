@@ -57,13 +57,6 @@ public class TwoMatrices {
         getMatrice();
         double result;
         if (columns[0] == rows[1] ) {
-//            for (int i = 0; i < rows[0]; i++) {
-//                result = 0;
-//                for (int j = 0; j < columns[0]; j++) {
-//                    result = result + (matrice1[i][j] * matrice2[j][i]);
-//                    sum2Matrices.add(String.format("%.2f", result));
-//                }
-//            }
             for(int i = 0; i < rows[0]; i++)
             {
                 for(int j = 0; j < rows[0]; j++)
@@ -85,7 +78,6 @@ public class TwoMatrices {
 
     public void getMatrice() {
         boolean isOk = false;
-        int licznik = 0;
         while (!isOk) {
             try {
                 howManyRows();

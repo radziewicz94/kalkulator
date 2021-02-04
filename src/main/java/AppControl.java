@@ -1,8 +1,10 @@
 import exception.NoSuchOptionException;
 import exception.WrongMatrixDimensionsException;
 import io.DataReader;
+import model.OneMatriceOneVector;
 import model.OneRealNumberAndMatrices;
 import model.OneRealNumberAndOneVector;
+import model.availableOperations.OneMatriceOneVectorOperation;
 import model.availableOperations.TwoMatricsOperation;
 import model.availableOperations.TwoRealNumbersOperations;
 import model.availableOperations.TwoVectorsOperations;
@@ -19,6 +21,8 @@ public class AppControl {
     private OneRealNumberAndMatrices oneRealNumberAndMatrices;
     private TwoVectorsOperations twoVectorsOperations;
     private TwoMatricsOperation twoMatricsOperation;
+    private OneMatriceOneVectorOperation oneMatriceOneVectorOperation;
+
     List<Double> values = new ArrayList<>();
 
     public AppControl() {
@@ -27,6 +31,7 @@ public class AppControl {
         this.oneRealNumberAndMatrices = new OneRealNumberAndMatrices();
         this.twoVectorsOperations = new TwoVectorsOperations();
         this.twoMatricsOperation = new TwoMatricsOperation();
+        this.oneMatriceOneVectorOperation = new OneMatriceOneVectorOperation();
         this.dataReader = new DataReader();
     }
 
@@ -60,6 +65,11 @@ public class AppControl {
                     }
                     break;
                 case MATRICES_VECTOR:
+                    try{
+                        oneMatriceOneVectorOperation.operation();
+                    }catch (WrongMatrixDimensionsException e){
+                        System.out.println(e.getMessage());
+                    }
                     break;
             }
 
