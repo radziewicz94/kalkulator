@@ -29,7 +29,6 @@ public class OneRealNumberAndOneVector {
     }
 
     public void multiByNumber() {
-        System.out.println("Dostępna jest tylko jedna opcja operacji czyli mnożenie macierzy przez liczbę");
         int numberOfElements = 0;
         realNumber = getRealNumber();
         numberOfElements = getElements();
