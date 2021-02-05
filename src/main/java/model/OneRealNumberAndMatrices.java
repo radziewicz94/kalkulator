@@ -27,7 +27,6 @@ public class OneRealNumberAndMatrices {
     }
 
     public void multiplyByRealNumber() {
-        System.out.println("Dostępna jest tylko jedna opcja operacji czyli mnożenie macierzy przez liczbę");
         realNumber = getRealNumber();
         double[][] macierz = getMatrice();
         printMatrices(macierz);

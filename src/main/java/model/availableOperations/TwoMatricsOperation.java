@@ -9,6 +9,18 @@ import java.util.InputMismatchException;
 public class TwoMatricsOperation {
     private TwoMatrices twoMatrices = new TwoMatrices();
     private DataReader dataReader = new DataReader();
+//    public List<String> addNumber() {
+//        List<String> sum2Vectors = new ArrayList<>();
+//        valueOfVectors();
+//        double result = 0;
+//        for (int i = 0; i < vector1.length; i++) {
+//            result = vector1[i] + vector2[i];
+//            sum2Vectors.add(String.format("%.2f", result));
+//        }
+//        System.out.println("Wynikiem dodawania 2 wektorów jest: ");
+//        return sum2Vectors;
+//    }
+
 
     public void operation() {
         System.out.println("Wybierz opcję");
