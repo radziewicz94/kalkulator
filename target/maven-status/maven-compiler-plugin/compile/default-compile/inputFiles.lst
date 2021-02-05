@@ -1,0 +1,17 @@
+D:\java_workspace\calculator\src\main\java\model\availableOperations\TwoMatricsOperation.java
+D:\java_workspace\calculator\src\main\java\model\OneMatriceOneVector.java
+D:\java_workspace\calculator\src\main\java\exception\WrongMatrixDimensionsException.java
+D:\java_workspace\calculator\src\main\java\model\TwoMatrices.java
+D:\java_workspace\calculator\src\main\java\GetNextNumber.java
+D:\java_workspace\calculator\src\main\java\exception\DivisionByZeroException.java
+D:\java_workspace\calculator\src\main\java\AppControl.java
+D:\java_workspace\calculator\src\main\java\model\OneRealNumberAndOneVector.java
+D:\java_workspace\calculator\src\main\java\model\availableOperations\TwoVectorsOperations.java
+D:\java_workspace\calculator\src\main\java\model\TwoRealNumbers.java
+D:\java_workspace\calculator\src\main\java\exception\NoSuchOptionException.java
+D:\java_workspace\calculator\src\main\java\model\TwoVectors.java
+D:\java_workspace\calculator\src\main\java\model\availableOperations\TwoRealNumbersOperations.java
+D:\java_workspace\calculator\src\main\java\model\OneRealNumberAndMatrices.java
+D:\java_workspace\calculator\src\main\java\Main.java
+D:\java_workspace\calculator\src\main\java\exception\RageNumberException.java
+D:\java_workspace\calculator\src\main\java\io\DataReader.java
