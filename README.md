@@ -1,6 +1,6 @@
 # kalkulator
 
-#Opis Aplikacji
+# Opis Aplikacji
 Aplikacja napisana w javie 13 ma za zadanie obliczać wybrane dane. Dostępnych operacji mamy 6
 1. Obliczanie liczb rzeczywistych
 2. Obliczanie Wektorów
